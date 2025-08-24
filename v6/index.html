@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form Tag</title>
+</head>
+
+<body>
+    <form action="post">
+        <label for="username">Enter your Name:</label>
+        <input type="text" name="username" placeholder="Enter youor name" />
+
+        <div>
+            <input type="radio" id="male" name="gneder" value="male" />
+            <label for="male">MALE</label>
+            <input type="radio" id="female" name="gneder" value="female" />
+            <label for="female">FEMALE</label>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes" />
+            <label for="subscribe">Subscribe this Youtube Channel</label>
+        </div>
+        <div>
+            <label for="comment">Enter your comment</label> <br />
+            <textarea name="comment" id="comment" rows="5" cols="43" placeholder="comment" autofocus></textarea>
+        </div>
+        <div>
+            <select name="fruit">
+                <option value="Apple">Apple-</option>
+                <option value="Banaana">Banana-</option>
+                <option value="Cherry">Cherry-</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
